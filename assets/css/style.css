@@ -22,6 +22,7 @@ body {
     border-bottom: 10px solid black;
     position: sticky;
     top: 0px;
+    font-family: 'Slabo 27px', serif;
 }
 
 #train-table {
@@ -43,4 +44,10 @@ body {
 }
 #requestpanel {
     padding: 15px;
+}
+.panel-body {
+    font-family: 'Special Elite', cursive;
+}
+.panel-heading {
+    font-family: 'Slabo 27px', serif;
 }
