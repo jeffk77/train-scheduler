@@ -5,21 +5,28 @@
     <meta charset="UTF-8">
     <title>Train Schedule Board | U of T Coding Bootcamp</title>
 
+    <!-- Bootstrap Source Coding -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+    <!-- Bootstrap Source Coding -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+
+    <!-- Google Font Source Coding -->
     <link href="https://fonts.googleapis.com/css?family=Slabo+27px|Special+Elite" rel="stylesheet">
 
+    <!-- Firebase Source Coding -->
     <script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>
 
+    <!-- Moment.js Source Coding -->
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 </head>
 
-
-
+<!-- Jumbotron Header -->
 <div class="jumbotron jumbotron-fluid text-white" style="background-color: #ccc;">
     <div class="container text-center pt-5">
         <h1 class="display-1">TRAIN SCHEDULE</h1>
@@ -36,6 +43,7 @@
                     Current Train Schedule
                 </div>
 
+                <!-- Table to hold train times, with headers pre-assigned -->
                 <div class="panel-body">
                     <table class="table table-hover" id="train-table">
                         <thead class="thead-light">
@@ -57,11 +65,10 @@
 
         <br>
 
+        <!-- Train Info Request Panel, Designed for User Inputs for All Timing Requirements -->
         <div class="panel p-12 rounded" style="background-color: #ccc">
             <div class="panel-heading">
-                <h3 class="panel-title" id="request">
-                    <strong id="requestcolor">Request a train</strong>
-                </h3>
+                Request a train
             </div>
             <div class="panel-body" id="requestpanel">
 
@@ -93,7 +100,7 @@
     </div>
 </div>
 
-
+<!-- Javascript Source Coding -->
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="assets/javascript/app.js"></script>
 
